@@ -1,7 +1,16 @@
 # QA-using-Axios
 
 ## Overview
-This project demonstrates a scalable QA automation framework using Playwright for UI and API testing.
+## API Testing (Axios)
+
+This project includes API testing using Axios:
+
+- GET users endpoint
+- POST login (success & failure)
+- Error handling validation
+
+Run API tests:
+node tests/api/api.test.js
 
 ## Tech Stack
 - Playwright (UI + API testing)
