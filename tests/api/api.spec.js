@@ -1,10 +1,8 @@
 const axios = require('axios');
 
 // Create reusable API client
-const api = axios.create({
-  baseURL: 'https://reqres.in/api',
-  timeout: 5000,
-});
+const api = require('../../utils/apiClient');
+
 
 // Simple test runner style (since no Jest here)
 async function runTests() {
