@@ -33,6 +33,9 @@ utils/
 npm install
 npx playwright test
 
+## Install Axios
+npm install axios
+
 ## CI/CD
 Tests run automatically on every push using GitHub Actions.
 
