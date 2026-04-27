@@ -1,7 +1,5 @@
 # QA-using-Axios
 
-# QA Automation Framework (Playwright + API)
-
 ## Overview
 This project demonstrates a scalable QA automation framework using Playwright for UI and API testing.
 
