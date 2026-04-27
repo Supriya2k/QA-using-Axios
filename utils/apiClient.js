@@ -1,7 +1,8 @@
 const axios = require('axios');
+const config = require('../config/config');
 
 const api = axios.create({
-  baseURL: 'https://reqres.in/api',
+  baseURL: config.apiURL,
   timeout: 5000,
 });
 
